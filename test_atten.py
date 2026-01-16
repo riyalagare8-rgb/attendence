@@ -1,4 +1,4 @@
-from attendance import calculate_attendance
+from atten import calculate_attendance
 
 def test_zero_attended():
     assert calculate_attendance(100, 0) == 0.0
