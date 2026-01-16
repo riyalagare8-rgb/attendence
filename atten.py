@@ -1,3 +1,4 @@
+import sys
 def calculate_attendance(classes_held, classes_attended):
     return (classes_attended / classes_held) * 100
 
